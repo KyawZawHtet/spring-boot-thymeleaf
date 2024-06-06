@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variable Expressions</title>
+</head>
+<body>
+
+<h1>Variable Expression Demo :</h1>
+<h2>User Details :</h2>
+<div>
+    <p>Name : <strong th:text="${user.name}"></strong></p>
+    <p>Email : <strong th:text="${user.email}"></strong></p>
+    <p>Role : <strong th:text="${user.role}"></strong></p>
+    <p>Gender : <strong th:text="${user.gender}"></strong></p>
+</div>
+
+</body>
+</html>
